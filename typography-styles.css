@@ -1,0 +1,91 @@
+/* CSS Style Formatting - This lays out the properties of typography selectors
+including Headers, Paragraphs, Links, and Quotes. */
+
+h1 {
+  font-size: 2em;
+  color: 	#181716;
+}
+
+h2 {
+  font-size: 1.8 em;
+  color: 	#181716;
+}
+
+h3 {
+  font-size: 1.6em;
+  color: 	#181716;
+}
+
+h4 {
+  font-size: 1.4em;
+  color: 	#181716;
+}
+
+h5 {
+  font-size: 1.2em;
+  color: 	#181716;
+}
+
+h6 {
+  font-size: 1em
+  color: 	#181716;
+}
+
+p {
+  font-size: 1em;
+  text-align: left;
+  color: color: 	#181716;
+  text-indent: 2em;
+}
+
+p.bold {
+  font-weight: bold;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.underline {
+  text-decoration: underline;
+}
+
+a:link {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #181716;
+}
+
+ul li {
+  display: grid;
+  font-size: 1.4em;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q::before {
+  content: open-quote;
+}
+
+q::after {
+  content: close-quote;
+}
